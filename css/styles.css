@@ -1,0 +1,248 @@
+body
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color : black;
+    text-align: center; 
+}
+.myself
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    word-spacing: 4px;
+}
+hr{
+    border:none;
+    border-top-style:dotted;
+    border-color: gray;
+    width: 20%;
+    border-width: 10px;
+}
+table
+{
+    color : gray;
+}
+.top
+{
+    /* background-color: black; */
+    position: relative;   
+}
+.linked_imgs
+{
+    top: 300px;
+    left: 44%;
+    position: absolute; 
+    color : whitesmoke;
+} 
+.task_bar
+{
+    top: 30px;
+    left: 33%;
+    position: fixed; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    /* padding: 0% 5%; */
+}
+.main-h
+{
+    top: 90px; 
+    left: 35.5%; 
+    position: absolute;  
+    margin: 0 auto; 
+    color: whitesmoke; 
+    font-family:cursive;
+  
+}
+a
+{
+    color:gold;
+    text-decoration: none;    
+}
+.top-h1
+{
+    top: 200px;
+    left: 39%;
+    font-size : 75px;
+    position: absolute; 
+    margin: 0 auto 0; 
+    color : whitesmoke;
+}
+.bar
+{
+    position: absolute;
+    top : 70px;
+    width: 100%;
+    border-width: 1px;
+    border-top-style: solid;
+    border-color: whitesmoke;
+}
+.middle
+{
+    background-color: black;
+    position: relative; 
+}
+.about-h
+{
+
+    color:darkred;
+    margin: 10px auto;
+    font-size: 30px;
+
+}
+.intro-h
+{
+    color:whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 0 auto;
+}
+.bio
+{
+    margin: 0 auto;
+    left: 45%;
+}
+.bio-data
+{
+    margin: 0 auto;
+}
+.pro-h
+{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.small
+{
+    /* padding: 0px 10px; */
+    word-spacing: 4px;
+    /* font-size: small; */
+    width: 500px;
+}
+.bottom
+{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;;
+    word-spacing: 3px;
+    position: relative;
+}
+.More_Cre
+{
+    margin-top: 80px;
+    position: relative;
+    word-spacing: 3px;
+}
+.task
+{
+    color: aliceblue;
+    font-size: 0.75rem;
+    display: inline-block;
+    padding: 0px 13px;
+    transition: color .2s ease-in-out;
+}
+.back
+{
+    width: 100%;
+}
+.small_h
+{
+    color: gray;
+}
+.uni_img
+{
+    margin-top: 30px;
+    margin-right: 35px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    float: left;   
+}
+.degree_info
+{
+    text-align: left;
+    font-size: 25px;
+}
+.uni_detail
+{
+   text-align: left;
+}
+.sub-h
+{
+    /* margin-top: rem; */
+    color:orange;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.statics
+{
+    /* width: 100%; */
+    margin-top: 20rem;
+    background-color:gold;
+}  
+.tropy-img
+{
+    margin-bottom: 25px;
+}
+.coding-img
+{
+    margin-bottom: 40px;
+}
+.ss-info
+{
+    /* t/ext-decoration-color: white; */
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c-info
+{
+    /* t/ext-decoration-color: white; */
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.download-img
+{
+    float:left;
+}
+.download
+{
+    margin: 50px auto;
+    width: 10%;
+    background-color:gold;
+    border-radius: 5px;
+}
+.download :hover
+{
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+.download_txt
+{
+    padding: 20px 10px;
+    font-family:'opensans-bold', sans-serif;
+    color: black;
+}
+.c-app-img1
+{
+    margin-right: 19px; 
+    margin-bottom: 30px;
+    float: left;
+}
+.c-app-h1
+{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration-color: antiquewhite;
+    color: white;
+    word-spacing: 4px;
+}
+.c-app-p1
+{
+    word-spacing: 5px;
+    color: grey;
+    width: 600px;
+    font-size : 20px;
+
+}
+.projects
+{
+    text-align: left;
+    margin: 90px 40%;
+}
