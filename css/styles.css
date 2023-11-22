@@ -3,9 +3,67 @@ body
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    width: 100%;
+    height: 100%;
     background-color : black;
     text-align: center; 
 }
+
+
+.task_bar {
+    margin: 0; /* Reset margin */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    width: 100%; /* Make the navigation bar take the full width */
+    background-color: gold; /* Add a background color for better visibility */
+    z-index: 1000; /* Set a higher z-index to ensure it's on top */
+}
+.task_bar ul {
+    list-style-type: none; /* Remove list styling */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    justify-content: center;  /* Center the list items horizontally */
+}
+.nav_link {
+    text-decoration:solid;
+    color: black; /* Set the link color */
+}
+/* Add hover effect for better user experience */
+.nav_link:hover {
+    color: white;
+}
+
+
+.main-h {
+    text-align: center;
+    color: whitesmoke;
+    font-family: cursive;
+    width: 100%; /* Set the width to 100% to make margin: 0 auto; work */
+    margin: 0 auto; /* Center the element horizontally */
+}
+
+
+.top-h1
+{
+    text-align: center;
+    font-size : 75px; 
+    color : whitesmoke;
+}
+
+
+.linked_imgs
+{
+    text-align: center;
+    top: 300px;
+    color : whitesmoke;
+} 
+.contact-logos{
+    margin:0 auto; 
+}
+
+
+
 .myself
 {
     font-family: Arial, Helvetica, sans-serif;
@@ -28,45 +86,16 @@ table
     /* background-color: black; */
     position: relative;   
 }
-.linked_imgs
-{
-    top: 300px;
-    left: 44%;
-    position: absolute; 
-    color : whitesmoke;
-} 
-.task_bar
-{
-    top: 30px;
-    left: 33%;
-    position: fixed; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    display: block;
-    /* padding: 0% 5%; */
+
+
+.main-h a:hover {
+    text-decoration: underline; /* Add underline on hover */
 }
-.main-h
-{
-    top: 90px; 
-    left: 35.5%; 
-    position: absolute;  
-    margin: 0 auto; 
-    color: whitesmoke; 
-    font-family:cursive;
-  
-}
+
 a
 {
     color:gold;
     text-decoration: none;    
-}
-.top-h1
-{
-    top: 200px;
-    left: 39%;
-    font-size : 75px;
-    position: absolute; 
-    margin: 0 auto 0; 
-    color : whitesmoke;
 }
 .bar
 {
@@ -140,9 +169,10 @@ a
     padding: 0px 13px;
     transition: color .2s ease-in-out;
 }
-.back
-{
+.back {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .small_h
 {
@@ -216,7 +246,7 @@ a
 }
 .download_txt
 {
-    padding: 20px 10px;
+    padding: auto;
     font-family:'opensans-bold', sans-serif;
     color: black;
 }
@@ -233,6 +263,7 @@ a
     color: white;
     word-spacing: 4px;
 }
+
 .c-app-p1
 {
     word-spacing: 5px;
@@ -241,8 +272,8 @@ a
     font-size : 20px;
 
 }
-.projects
-{
-    text-align: left;
-    margin: 90px 40%;
+
+.projects-table{
+    margin: 0 auto;
+    width: 70%;
 }
